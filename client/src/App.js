@@ -6,7 +6,9 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <h1>Recycle Item Search</h1>
+            <nav class="w-full h-[45px] bg-green-700">
+                <h1 class="text-white text-[20px]  h-full justify-center flex items-center">Recycle Item Search</h1>
+                </nav>
                 <RecycleSearch />
             </header>
         </div>
